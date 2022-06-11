@@ -778,6 +778,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_cart
 drawable ic_reset
 drawable img_badminton
 drawable img_baseball
@@ -1033,6 +1034,7 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_cart
 layout activity_detail
 layout activity_main
 layout design_bottom_navigation_item

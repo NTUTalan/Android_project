@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/drawable/ic_cart.xml" value="0.232" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/drawable/ic_reset.xml" value="0.232" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/layout/activity_cart.xml" value="0.25132275132275134" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/layout/activity_detail.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/layout/activity_main.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/layout/list_item.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/layout/recycle_layout.xml" value="0.32608695652173914" />
+        <entry key="..\:/Users/Alan/Desktop/Android_project/final_project/app/src/main/res/layout/toolbar.xml" value="0.2617753623188406" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HW8-2/app/src/main/res/layout/activity_detail.xml" value="0.1125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HW8-2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HW8-2/app/src/main/res/layout/list_item.xml" value="0.264" />
