@@ -7,20 +7,62 @@
     tools:context=".cartActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/RecycleView"
+        android:id="@+id/rView"
         android:layout_width="407dp"
-        android:layout_height="674dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="617dp"
+        app:layout_constraintTop_toBottomOf="@+id/cart_toolbar"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
-        android:id="@+id/txtView_total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textview_total"
+        android:layout_width="151dp"
+        android:layout_height="52dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginBottom="24dp"
-        android:text="Total $ : "
+        android:layout_marginBottom="4dp"
+        android:text="Total $ :"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/cart_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Cart"
+        app:titleTextColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:onClick="btn_send_Click"
+        android:text="結帳"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview_total"
+        app:layout_constraintTop_toBottomOf="@+id/rView"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="btn_clean_Click"
+        android:text="清除購物車"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toEndOf="@+id/btn_send"
+        app:layout_constraintTop_toBottomOf="@+id/rView"
+        app:layout_constraintVertical_bias="0.333" />
 </android.support.constraint.ConstraintLayout>

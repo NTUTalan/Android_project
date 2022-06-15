@@ -14,10 +14,11 @@
   ~ limitations under the License.
   -->
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.materialme.MainActivity">
+    tools:context="com.example.android.finalproject.MainActivity">
     <item
         android:id="@+id/action_contact"
         android:orderInCategory="100"

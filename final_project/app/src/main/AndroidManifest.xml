@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.materialme">
+    package="com.example.android.finalproject">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="109590020_HW8-2"
+        android:label="第十一組 期末專案"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".ADD_NEW"
+            android:exported="false" />
         <activity
             android:name=".cartActivity"
             android:exported="false" />

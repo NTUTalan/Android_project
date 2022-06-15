@@ -16,7 +16,7 @@
 <resources>
     <string name="app_name">Material Me!</string>
     <string name="title_placeholder">Title</string>
-    <string name="news_placeholder">News</string>
+    <string name="news_placeholder">Description:</string>
     <string name="sports_info_placeholder">Here is some news</string>
     <string name="subtitle_detail_text">Lorem ipsum dolor sit amet,
         consectetur adipiscing elit. Praesent ultrices congue rutrum.
@@ -38,20 +38,39 @@
         <item>Swimming</item>
         <item>Table Tennis</item>
         <item>Tennis</item>
+        <item>dog</item>
+
     </string-array>
 
     <string-array name="sports_info">
-        <item>Here is some Baseball news!</item>
-        <item>Here is some Badminton news!</item>
-        <item>Here is some Basketball news!</item>
-        <item>Here is some Bowling news!</item>
-        <item>Here is some Cycling news!</item>
-        <item>Here is some Golf news!</item>
-        <item>Here is some Running news!</item>
-        <item>Here is some Soccer news!</item>
-        <item>Here is some Swimming news!</item>
-        <item>Here is some Table Tennis news!</item>
-        <item>Here is some Tennis news!</item>
+        <item>somthing about Baseball</item>
+        <item>somthing about Badminton </item>
+        <item>somthing about Basketball </item>
+        <item>somthing about Bowling </item>
+        <item>somthing about Cycling </item>
+        <item>somthing about Golf </item>
+        <item>somthing about Running </item>
+        <item>somthing about Soccer </item>
+        <item>somthing about Swimming </item>
+        <item>somthing about Table Tennis</item>
+        <item>tsomthing about Tennis</item>
+        <item>What a dorable dog</item>
+
+    </string-array>
+    <string-array name="item_price">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>1100</item>
+        <item>1200</item>
+
     </string-array>
 
 
@@ -67,6 +86,8 @@
         <item>@drawable/img_swimming</item>
         <item>@drawable/img_tabletennis</item>
         <item>@drawable/img_tennis</item>
+        <item>@drawable/dog</item>
+
 
     </array>
 
